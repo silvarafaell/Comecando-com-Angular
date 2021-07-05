@@ -6,4 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  public todos: any[] = [];
+
+  constructor() {
+    this.todos.push('passear com o cachorro');
+    this.todos.push('ir ao supermercado');
+    this.todos.push('cortar o cabelo');
+  }
 }

@@ -12,7 +12,7 @@ export class AppComponent {
 
   constructor() {
     this.todos.push(new Todo(1, 'Passear com o cachorro', true));
-    this.todos.push(new Todo(2, 'ir ao supermercado', false));
+    this.todos.push(new Todo(2, 'ir ao supermercado', true));
     this.todos.push(new Todo(3, 'cortar o cabelo', false));
   }
 }

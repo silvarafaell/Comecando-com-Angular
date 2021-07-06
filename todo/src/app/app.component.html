@@ -4,6 +4,6 @@
         {{ todo.id }}. {{ todo.title }}| 
         <button *ngIf="!todo.done">CONCLUIR</button> | 
         <button *ngIf="todo.done">REFAZER</button> |
-        <button>REMOVER</button>
+        <button (click)="remove(todo)">REMOVER</button>
     </li>
 </ul>

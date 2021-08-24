@@ -1,4 +1,5 @@
-## Curso Começando com Angular na plataforma Balta.IO
+## Curso Começando com Angular 
+- Na plataforma Balta.IO
 
 <p align="Left">
    <img width="260" src="https://github.com/silvarafaell/Comecando-com-Angular/blob/main/todo/src/TelaInical_README.png?raw=true">
